@@ -34,3 +34,6 @@ router.get('/:da', function(req, res, next) {
     // res.json({name:req.params.da})
     res.render('teacher', { title: req.params.da});
   });
+
+  
+module.exports = router;
