@@ -34,6 +34,11 @@ router.get('/:da', function(req, res, next) {
     // res.json({name:req.params.da})
     res.render('teacher', { title: req.params.da});
   });
-
+   
+//   router.get('/movie', function(req, res, next) {
+//     console.log(req.params);
+//     // res.json({name:req.params.da})
+//     res.render( { title: req.params.movie});
+//   })
   
 module.exports = router;
