@@ -9,6 +9,8 @@ var usersRouter = require('./routes/users');
 var studentrouter = require('./routes/student');
 var loginRouter = require('./routes/login-form');
 var registerRouter = require('./routes/register');
+var registerRouter = require('./routes/register');
+var  mysql = require('./db_config');
 
 
 
