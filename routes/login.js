@@ -77,7 +77,7 @@ res.json({"Name":req.query})
 router.get('/where', function(req, res, next) {
  
     console.log(req)
-    res.json({name:"sid"})
+    res.json({name:"ved"})
   });
 
 module.exports = router;
