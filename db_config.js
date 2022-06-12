@@ -1,10 +1,9 @@
 const mysql = require('mysql');
  var connection = mysql.createConnection({
-    username: 'kcc_student',
-    password: 'Kccitm.edu.in1',
-    database: 'kccStudent',
-    host : 'easylearning.guru',
-    port: '3306'
+    host: "localhost",
+  user: "root",
+  password: "1234",
+  database: ""
  });
 
 

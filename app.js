@@ -7,9 +7,9 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var studentrouter = require('./routes/student');
-var loginRouter = require('./routes/login-form');
-var registerRouter = require('./routes/register');
-var registerRouter = require('./routes/register');
+var loginRouter = require('./routes/login');
+// var registerRouter = require('./routes/register');
+// var registerRouter = require('./routes/register');
 var  mysql = require('./db_config');
 
 
@@ -30,7 +30,7 @@ app.use('/', indexRouter)
 app.use('/student', studentrouter)
 app.use('/users', usersRouter);
 app.use('/login', loginRouter);
-app.use('/register', registerRouter);
+// app.use('/register', registerRouter);
 
 
 // catch 404 and forward to error handler
