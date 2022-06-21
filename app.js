@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 var studentrouter = require('./routes/student');
 var loginRouter = require('./routes/login');
  var idcardRouter = require('./routes/idcard');
+ var calculatorRouter = require('./routes/calculator');
 // var registerRouter = require('./routes/register');
 // var registerRouter = require('./routes/register');
 var  mysql = require('./db_config');
@@ -32,6 +33,7 @@ app.use('/student', studentrouter)
 app.use('/users', usersRouter);
 app.use('/login', loginRouter);
 app.use('/idcard', idcardRouter);
+app.use('/calculator', calculatorRouter);
 // app.use('/register', registerRouter);
 
 
